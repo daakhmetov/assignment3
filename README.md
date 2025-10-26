@@ -49,7 +49,7 @@ Both yield the same MST total cost.
 
 In this experiment, Kruskal’s algorithm showed slightly better real-time efficiency.
 
-Implementation Notes
+**Implementation Notes**
 
 Input graphs → input.json
 
