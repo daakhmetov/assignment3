@@ -1,10 +1,10 @@
 Minimum Spanning Tree Algorithms — Assignment 3
-Overview
+**Overview**
 
 This project implements and compares two classical Minimum Spanning Tree (MST) algorithms — Prim’s and Kruskal’s.
 Both algorithms were applied to multiple graph datasets loaded from input.json, and the results were saved to output.json.
 
-Summary of Input Data and Algorithm Results
+**Summary of Input Data and Algorithm Results**
 
 | Graph ID | Vertices | Edges | Prim Cost | Kruskal Cost | Prim Ops | Kruskal Ops | Prim Time (ms) | Kruskal Time (ms) |
 | -------- | -------- | ----- | --------- | ------------ | -------- | ----------- | -------------- | ----------------- |
@@ -14,7 +14,7 @@ Summary of Input Data and Algorithm Results
 
 
 
-Algorithm Comparison
+**Algorithm Comparison**
 
 | Aspect               | Prim’s Algorithm         | Kruskal’s Algorithm       |
 | -------------------- | ------------------------ | ------------------------- |
@@ -25,7 +25,7 @@ Algorithm Comparison
 | Implementation Level | Moderate                 | Simple                    |
 
 
-Practical Analysis
+**Practical Analysis**
 
 Both algorithms produced identical MST costs → correctness confirmed.
 
@@ -39,7 +39,7 @@ For the 25-vertex graph:
 
 Prim’s: 0.3115 ms, Kruskal’s: 0.1998 ms → Kruskal faster.
 
-Conclusions
+**Conclusions**
 
 Prim’s is generally better for dense graphs.
 
