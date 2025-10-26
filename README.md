@@ -5,6 +5,7 @@ This project implements and compares two classical Minimum Spanning Tree (MST) a
 Both algorithms were applied to multiple graph datasets loaded from input.json, and the results were saved to output.json.
 
 Summary of Input Data and Algorithm Results
+
 +-----------+-----------+--------+------------+---------------+------------+--------------+----------------+-------------------+
 | Graph ID  | Vertices  | Edges  | Prim Cost  | Kruskal Cost  | Prim Ops   | Kruskal Ops  | Prim Time (ms) | Kruskal Time (ms) |
 +-----------+-----------+--------+------------+---------------+------------+--------------+----------------+-------------------+
@@ -13,7 +14,9 @@ Summary of Input Data and Algorithm Results
 | 3         | 25        | 42     | 107        | 107           | 69         | 152          | 0.3115         | 0.1998            |
 +-----------+-----------+--------+------------+---------------+------------+--------------+----------------+-------------------+
 
+
 Algorithm Comparison
+
 +----------------------+--------------------------+----------------------------+
 | Aspect               | Prim’s Algorithm         | Kruskal’s Algorithm        |
 +----------------------+--------------------------+----------------------------+
